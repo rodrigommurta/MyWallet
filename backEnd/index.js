@@ -20,7 +20,7 @@ app.use(express.json());
 /**
  * Vinculando o React ao app
  */
-//app.use(express.static(path.join(__dirname, '../frontEnd/build')));
+app.use(express.static(path.join(__dirname, '../frontEnd/build')));
 
 /**
  * Rota raiz
