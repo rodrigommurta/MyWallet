@@ -1,0 +1,10 @@
+{
+  "name": "gestao-financeira",
+  "version": "1.0.0",
+  
+  "scripts": {
+    "start": "cd backEnd && node index.js",
+    "install": "cd backEnd && npm install"
+  }
+ 
+}
