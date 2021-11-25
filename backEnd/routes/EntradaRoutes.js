@@ -1,5 +1,5 @@
 const express = require('express');
-const RelatosnRouter = express.Router();
+const EntradasRouter = express.Router();
 const EnstradaServices = require('../services/EntradaService.js');
 
 const SUCESSO_BUSCA = {"Mensage": "Objeto Encontrados"}
@@ -10,7 +10,7 @@ const FALHA_CADASTRO = {"Mensage": "Cadastro não foi realizado"}
 const OUTROS_ERROS = {"Mensage": "Erros na busca da informação"}
 
 
-RelatosnRouter.get('/', async (_, resp)=>{
+EntradasRouter.get('/', async (_, resp)=>{
     try {
         resp.send(
             {
@@ -23,7 +23,7 @@ RelatosnRouter.get('/', async (_, resp)=>{
 });
 
 
-RelatosnRouter.get('/entradas', async (req, resp)=>{
+EntradasRouter.get('/entradas', async (req, resp)=>{
     try {
         const data = await EnstradaServices.todasEntradas();
         resp.send({SUCESSO_BUSCA, data});
@@ -34,7 +34,7 @@ RelatosnRouter.get('/entradas', async (req, resp)=>{
 });
 
 
-RelatosnRouter.post('/cadastro', async (req, resp)=>{
+EntradasRouter.post('/cadastro', async (req, resp)=>{
     try {
         const entrada = req.body;
         const data = await EnstradaServices.CadastrarEntrada(entrada);
@@ -47,7 +47,7 @@ RelatosnRouter.post('/cadastro', async (req, resp)=>{
 });
 
 
-RelatosnRouter.get('/atualizar', async (req, resp)=>{
+EntradasRouter.get('/atualizar', async (req, resp)=>{
 
     try {
         console.log('chamou')
@@ -64,4 +64,4 @@ RelatosnRouter.get('/atualizar', async (req, resp)=>{
 
 
 
-module.exports = RelatosnRouter;
+module.exports = EntradasRouter;
