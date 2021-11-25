@@ -24,7 +24,7 @@ class Relatos extends Component {
   render() {
     console.log(this.props.relatos)
     if (this.props.registros.length === 0) {
-      return <div>Nenhum Registro realizado!</div>;
+      return <div>Nenhum registro realizado!</div>;
     }
     return (
       <div style={this.state.STYLE}>

@@ -15,12 +15,12 @@ export default function Header() {
                     <img
                         src={logo}
                         width="30%"
-                        alt="Me Conta Sua História"
+                        alt="Logo MyWallet"
                         border="1px solid green"
                     />
                 </div>
                 <h1 style={{color: "white"}}>
-                    Gestão Financeira - My Wallet
+                MyWallet - Gestão Financeira
                 </h1>
                 
  
@@ -55,4 +55,3 @@ const STYLE_3 = {
     width: "30%",
     //height: "30%"
   };
-  

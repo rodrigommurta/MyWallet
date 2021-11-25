@@ -46,8 +46,6 @@ const CadastrarMeta = async (Meta) =>{
         console.log(error);
         throw error;
     }
-
-
 }
 
 const atualizarMeta = async ({metaName, valorAdd}) =>{
@@ -59,9 +57,6 @@ const atualizarMeta = async ({metaName, valorAdd}) =>{
     MetaModel.updatOne({name: metaName}, {set:{valorPoupado: newValue}})
 
     return newValue;
-    
 }
 
 module.exports = { todasMetas, CadastrarMeta, atualizarMeta};
-
-

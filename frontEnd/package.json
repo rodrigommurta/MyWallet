@@ -10,7 +10,6 @@
     "axios": "^0.20.0",
     "bootstrap": "^5.0.0",
     "chart.js": "^2.9.4",
-    "json2csv": "^5.0.6",
     "materialize-css": "1.0.0",
     "react": "16.13.1",
     "react-bootstrap": "^1.6.0",

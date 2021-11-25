@@ -4,18 +4,17 @@
 
 const categorias_despesa =  [
         'Farmacia',  
-        'Supermecador',
+        'Supermecado',
         'Diversão',
-        'Agluguel',
-        'Outras',
-        'Salario',  
+        'Aluguel',
+        'Salário',  
         'Rendimentos',
         'Apostas',
         'Outros'
     ];
 
 const categorias_receita =  [
-        'Salario',  
+        'Salário',  
         'Rendimentos',
         'Apostas',
         'Outros'

@@ -1,7 +1,6 @@
 const express = require('express');
 const MetasRouter = express.Router();
 const MetasServices = require('../services/MetaService.js');
-
 const SUCESSO_BUSCA = {"Mensage": "Objeto Encontrados"}
 const SUCESSO_MODIFICACAO = {"Mensage": "Objeto Modificados"}
 const SUCESSO_INSERCAO = {"Mensage": "Objeto Inseridos"}
