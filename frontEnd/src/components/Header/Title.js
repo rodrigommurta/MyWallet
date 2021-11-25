@@ -8,7 +8,7 @@ export default function Title() {
       <img
         src={logo}
         width="30%"
-        alt="Me Conta Sua História"
+        alt="MyWallet logo"
         border="1px solid green"
       />
     </div>

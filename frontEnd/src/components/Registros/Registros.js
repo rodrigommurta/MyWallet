@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Relato from "./Registro";
+import Registro from "./Registro";
 
-class Relatos extends Component {
+class Registros extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -33,7 +33,7 @@ class Relatos extends Component {
           const dataFormat = reg.data;
           return (
             <div key={id} style={this.state.STYLE_TEXT}>
-              <Relato background={bkg} registro={reg} Data={dataFormat}/>
+              <Registro background={bkg} registro={reg} Data={dataFormat}/>
             </div>
           );
         })}
@@ -42,4 +42,4 @@ class Relatos extends Component {
   }
 }
 
-export default Relatos;
+export default Registros;

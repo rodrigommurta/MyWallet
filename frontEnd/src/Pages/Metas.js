@@ -8,7 +8,7 @@ import Botoes from "../components/Header/Botoes"
 import { RecuperarMetas } from "../Service/ServiceMeta";
 import Contador from "../components/Contadores/Contador";
 
-export default class RelatosPage extends Component {
+export default class MetasPage extends Component {
   STYLE = {
     padding: "5px",
     //border: "1px solid #4c4c4c",

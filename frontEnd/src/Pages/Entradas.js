@@ -11,7 +11,7 @@ import { RecuperarEntradas } from "../Service/ServiceEntrada";
 import Contador from "../components/Contadores/Contador";
 import Botoes from "../components/Header/Botoes";
 
-export default class RelatosPage extends Component {
+export default class EntradasPage extends Component {
   STYLE = {
     padding: "5px",
     //border: "1px solid #4c4c4c",

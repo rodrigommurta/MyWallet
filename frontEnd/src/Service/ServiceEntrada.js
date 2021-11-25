@@ -2,8 +2,8 @@ import axios from 'axios'
 
 const api = axios.create({ baseURL: 'api/Entradas' });
 
-const CadastroEntrada = async (relato) => {
-    const data = await api.post('/cadastro', relato)
+const CadastroEntrada = async (entrada) => {
+    const data = await api.post('/cadastro', entrada)
     return data;
 }
 

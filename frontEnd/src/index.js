@@ -26,7 +26,7 @@ ReactDOM.render(
         <Route exact path="/" component={Entradas}/>
         <Route exact path="/home" component={Entradas}/>
         <Route path="/metas" component={Metas}/>
-        <Route path="/relato" component={CadastrarEntradaPage}/>
+        <Route path="/entradas" component={CadastrarEntradaPage}/>
         <Route path="/meta" component={CadastrarMetaPage}/>
       </Switch>
     </App>

@@ -52,7 +52,7 @@ class CadastrarMetaPage extends Component {
     //this.subtitle.style.color = '#f00';
   }
 
-  cadastrarRelato = async (event) => {
+  cadastrarMeta = async (event) => {
     event.preventDefault();
     console.log('Entrei aqui')
 
@@ -118,7 +118,7 @@ class CadastrarMetaPage extends Component {
         </h5>
 
         <div style={{ padding: "15px" }}>
-          <form onSubmit={(e) => this.cadastrarRelato(e)}>
+          <form onSubmit={(e) => this.cadastrarMeta(e)}>
             <div style={this.state.STYLE} className="row">
               
             <label className="col-sm-6 col-md-4">

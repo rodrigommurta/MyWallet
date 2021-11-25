@@ -4,7 +4,7 @@ import {formatData} from '../../Help/FormataDados'
 import M from "materialize-css";
 
 
-class Relato extends Component {
+class Registro extends Component {
   STYLE = {
     //border: "1px solid red",
     borderRadius: '2px',
@@ -64,4 +64,4 @@ const STYLE_HEAD_CARD = {
     aligItems: "flex-start",
   };
 
-export default Relato;
+export default Registro;
